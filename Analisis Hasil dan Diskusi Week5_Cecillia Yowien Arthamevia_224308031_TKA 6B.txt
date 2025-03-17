@@ -1,0 +1,33 @@
+Nama	: Cecillia Yowien Arthamevia
+NIM	: 224308031
+Kelas	: TKA-6B
+ANALISIS DAN DISKUSI WEEK 5 "Human Pose Estimation dengan YOLOv8"
+
+Analisis Hasil:
+
+1. Bagaimana akurasi deteksi pose dengan YOLOv8?
+Jawab : Akurasi deteksi pose dengan YOLOv8 dapat bervariasi tergantung pada dataset yang digunakan, kondisi pencahayaan, dan kompleksitas pose yang dideteksi. Menurut beberapa sumber, YOLOv8 memiliki kemampuan deteksi objek secara real-time yang baik, dan pengembangannya juga meningkatkan akurasi dalam deteksi pose.
+
+2. Apakah model bekerja baik di kondisi pencahayaan rendah?
+Jawab : Pada saat kondisi pencahayaan rendah deteksi pose masih menjadi tantangan. Namun, YOLOv8 dengan peningkatan arsitekturnya, memiliki kemampuan yang lebih baik dalam menangani kondisi ini dibandingkan versi sebelumnya. Teknik augmentasi data dan penggunaan model yang lebih robust terhadap variasi pencahayaan dapat membantu meningkatkan performa di kondisi pencahayaan rendah.
+
+3. Bagaimana YOLOv8 dibandingkan dengan metode HPE lain seperti MediaPipe atau OpenPose?
+Jawab : YOLOv8 menawarkan kecepatan deteksi yang lebih tinggi, membuatnya cocok untuk aplikasi real-time. Sedangkan MediaPipe dan OpenPose menawarkan akurasi yang lebih tinggi dalam kondisi tertentu, terutama dalam deteksi pose yang sangat detail.
+
+
+Diskusi:
+
+1. Bagaimana YOLOv8 Pose dapat diterapkan dalam robotika dan otomatisasi industri?
+Jawab : YOLOv8 Pose dapat diterapkan dalam robotika dan otomatisasi industri dengan:
+	1). Dalam robotika: YOLOv8 Pose dapat digunakan untuk mengontrol gerakan robot berdasarkan pose manusia, memungkinkan interaksi yang lebih alami 	    antara manusia dan robot.
+	2). Dalam otomatisasi industri: dapat digunakan untuk memantau aktivitas pekerja, mendeteksi potensi bahaya, dan mengoptimalkan alur kerja.
+
+2. Apa tantangan dalam mendeteksi pose manusia secara real-time?
+Jawab :Tantangan dalam mendeteksi pose manusia secara real-time adalah:
+       1). Variasi pose yang sangat besar dan kompleksitas gerakan manusia.
+       2). Oklusi (objek yang menghalangi pandangan), pencahayaan yang berubah-ubah, dan latar belakang yang kompleks.
+       3). Kebutuhan akan komputasi yang tinggi untuk pemrosesan real-time.
+       4). Kebutuhan akan dataset yang besar dan beragam untuk melatih model agar robust terhadap berbagai kondisi.
+
+3. Bagaimana cara meningkatkan akurasi deteksi pose menggunakan dataset tambahan?
+Jawab : Cara meningkatkan akurasi deteksi pose menggunakan dataset tambahan adalah dengan menggunakan dataset yang lebih besar dan beragam, mencakup berbagai pose, kondisi pencahayaan, dan latar belakang. Selain itu, menggunakan teknik transfer learning dengan model yang telah dilatih sebelumnya pada dataset besar.
